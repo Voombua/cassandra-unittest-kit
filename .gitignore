@@ -44,6 +44,7 @@ java_pid*
 .idea/gradle.xml
 
 # InteliJ IDEA
+.idea
 *.iml
 .idea/libraries
 .idea/modules
