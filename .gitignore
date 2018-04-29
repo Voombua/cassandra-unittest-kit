@@ -5,12 +5,33 @@
 
 atlassian-ide-plugin.xml
 
+# by sbt-extras
+project/project/
+project/.sbtboot/
+project/.boot/
+project/.ivy/
 
 # Eclipse specific
 .classpath
 .project
 .settings/
 .metadata
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff:
+.idea/
+
+# Sensitive or high-churn files:
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.local.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
 
 # Project statistics
 stats
@@ -19,10 +40,16 @@ stats
 java_pid*
 
 
+# Gradle:
+.idea/gradle.xml
+
 # InteliJ IDEA
 *.iml
-.idea_modules/
-.idea/
+.idea/libraries
+.idea/modules
+
+# Thumbnails
+._*
 
 # sbt specific
 dist/*
